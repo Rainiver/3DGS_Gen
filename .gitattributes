@@ -1,0 +1,2 @@
+data/aligned_camera_pose_smpl.json filter=lfs diff=lfs merge=lfs -text
+data/extrinsics_smpl.json filter=lfs diff=lfs merge=lfs -text
