@@ -36,6 +36,9 @@ pip install -r requirements.txt
 
 # Run training
 python train.sh
+
+# Run testing
+python run.sh
 ```
 
 ## Acknowledgements
