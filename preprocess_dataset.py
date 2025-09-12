@@ -20,9 +20,9 @@ from training.deformers.smplx import SMPL
 
 
 def get_basedata(label):
-    # data_dir = '/data/vde/zhongyuhe/workshop/data/human_syn'
+    # data_dir = './data/human_syn'
 
-    # body_model = BodyModel(bm_path='/data/vde/zhongyuhe/workshop/3dgs-avatar/body_models/smpl/neutral/model.pkl', num_betas=10, batch_size=1).cuda()
+    
     body_model = SMPL('/data/vde/zhongyuhe/workshop/AG3D/training/deformers/smplx/SMPLX', gender='neutral')
     faces = np.load('/data/vde/zhongyuhe/workshop/3dgs-avatar/body_models/misc/faces.npz')['faces']
 

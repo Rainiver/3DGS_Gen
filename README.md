@@ -28,20 +28,14 @@ The integrated framework consists of the following key components:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/3dgs-avatar-eg3d-integration.git
-cd 3dgs-avatar-eg3d-integration
+git clone https://github.com/Rainiver/3DGS_Gen.git
+cd 3DGS_Gen
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Download pretrained models
-bash scripts/download_pretrained.sh
-
 # Run training
-python train.py --config configs/integration.yaml
-
-# Generate samples
-python generate.py --checkpoint weights/last.pth --output samples/
+python train.sh
 ```
 
 ## Acknowledgements
