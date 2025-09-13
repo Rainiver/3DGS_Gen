@@ -5,8 +5,9 @@ A novel framework combining deformable 3D Gaussian splatting with geometry-aware
 ## Project Overview
 
 <p align="center">
-  <img src="assets/framework.png" width="600"/>
+  <img src="assets/framework.png" width="800"/>
 </p>
+
 
 This project presents a unified framework for 3D-aware avatar generation that leverages advances in both 3D Gaussian splatting and geometry-aware GAN techniques. The architecture enables the creation of animatable avatars with high visual quality while maintaining strong 3D consistency across viewpoints and poses.
 
