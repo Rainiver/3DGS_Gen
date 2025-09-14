@@ -1,4 +1,5 @@
 # 3D Gaussian Splatting Avatar Generation
+> **Note**: This project originates from my earlier work and has been recently reorganized and released for reproducibility.
 
 A novel framework combining deformable 3D Gaussian splatting with geometry-aware generative adversarial networks for high-fidelity avatar synthesis with improved 3D consistency and rendering efficiency.
 
